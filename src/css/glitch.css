@@ -52,7 +52,7 @@ h3.glitch:before {
 #desc.glitch:before {
     animation: glitch-animation-2 6s infinite linear alternate-reverse;
     background: black;
-    margin-top: 18vh;
+    margin-top: 19vh;
     width: 46vw;
     clip: rect( 0, 900px, 0, 0 );
     color: #fb1313;
@@ -80,7 +80,7 @@ p.glitch:after {
 p.glitch:before {
     animation: glitch-animation-2 4s infinite linear alternate;
     background: black;
-    margin-top: 11.5vh;
+    margin-top: 12vh;
     width: 18vw;
     clip: rect( 0, 900px, 0, 0 );
     color: #fb1313;

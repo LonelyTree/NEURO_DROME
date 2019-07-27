@@ -18,12 +18,21 @@ const Eject=styled.button`
     text-shadow: red 0 0 10px;
     box-shadow: inset 0 0 0.4vw red;
 `
-
 class Exit extends Component{
+
+    initialize=(e) => {
+        e.preventDefault();
+        console.log(this.props.eject)
+        this.props.eject({
+            logged: false,
+            username: '',
+            password: ''
+        })
+}
     render() {
         return (
         <Wrapper>
-            <Eject>EXIT</Eject>
+            <Eject onClick={this.initialize}>EXIT</Eject>
         </Wrapper>
         )
     }
